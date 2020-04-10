@@ -1,0 +1,15 @@
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
+	url = http://github.com/wincent/command-t
+[submodule "vim/bundle/lightline.vim"]
+	path = vim/bundle/lightline.vim
+	url = http://github.com/itchyny/lightline.vim
+[submodule "vim/bundle/vim-gitgutter"]
+	path = vim/bundle/vim-gitgutter
+	url = http://github.com/airblade/vim-gitgutter
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = http://github.com/vim-syntastic/syntastic
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = http://github.com/scrooloose/nerdtree
