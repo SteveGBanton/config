@@ -30,6 +30,12 @@ or, if you already have submodules initialized,
 
 to install existing Vim plugins.
 
+## Changing default editor
+
+On Ubuntu, you can change the default text editor of the terminal with this command:
+
+sudo update-alternatives --config editor
+
 ## More example submodules
 
 [submodule "vim/bundle/command-t"]
