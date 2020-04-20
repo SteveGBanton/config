@@ -66,6 +66,10 @@ alias grp='git rebase --preserve-merges'
 alias gr='git rebase'
 alias grc='git rebase --continue'
 
+function grh() {
+  git reset --hard origin/$1
+}
+
 # Golang repository makefile shortcuts.
 alias mi='make install'
 alias mg='make generate'
@@ -109,3 +113,7 @@ function vspwd() {
 }
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
